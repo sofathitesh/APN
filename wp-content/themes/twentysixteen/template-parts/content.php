@@ -41,6 +41,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<?php get_search_form(); ?>
 		<?php twentysixteen_entry_meta(); ?>
 		<?php
 			edit_post_link(
